@@ -50,3 +50,9 @@ git remote add origin https://github.com/fredcode-cmd/freeCodeCamp-learn-salon-a
 git branch -m main
 echo "# freeCodeCamp-learn-salon-appointment-scheduler" >> README.md
 git add .
+git commit -m "results"
+git push -u origin main
+git push -u origin main --force
+git remote -v
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+git add .
