@@ -45,3 +45,8 @@ ls --color=auto
 git remote -v
 psql -U freecodecamp
 chmod +x salon.sh
+git remote remove origin
+git remote add origin https://github.com/fredcode-cmd/freeCodeCamp-learn-salon-appointment-scheduler.git
+git branch -m main
+echo "# freeCodeCamp-learn-salon-appointment-scheduler" >> README.md
+git add .
