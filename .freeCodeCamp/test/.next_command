@@ -56,3 +56,22 @@ git push -u origin main --force
 git remote -v
 pg_dump -cC --inserts -U freecodecamp salon > salon.sql
 git add .
+git commit -m "my commit"
+git push -u origin main --force
+git branch -m main
+git push -u origin main --force
+git branch -m main
+git push -u origin main --force
+git branch -M main
+git remote add origin https://github.com/fredcode-cmd/freeCodeCamp-learn-salon-appointment-scheduler.git
+git push -u origin main
+git remote remove origin
+git remote -v
+echo "# freeCodeCamp-learn-salon-appointment-scheduler" >> README.md
+git remote remove origin
+git remote -v
+git remote add origin https://github.com/fredcode-cmd/learn-salon-appointment-scheduler.git
+gti branch -M main
+git branch -M main
+git push -U origin main
+git add .
